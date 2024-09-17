@@ -1,10 +1,8 @@
 CC = clang
 CC_FLAGS = -Wfatal-errors -Wall -Wextra -Wpedantic -Wconversion -Wshadow
 
-# final binary
 BIN = cmain
 
-# put all auto generated stuff to this build dir.
 BUILD_DIR = ./build
 
 # list of all .c source files.
